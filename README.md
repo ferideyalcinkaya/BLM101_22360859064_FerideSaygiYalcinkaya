@@ -12,19 +12,26 @@ Grup: 5. Grup (Ağlar, İnternet ve HTML)
 
 
 Proje Konusu:
+
 Ağlar, İnternet ve HTML: Python ile Otomatik HTML Sayfası Oluşturucu 
-Bu proje, internetin temel çalışma mantığını (İstemci-Sunucu ilişkisi), WWW ve İnternet farkını ve markup dillerini (HTML/XML) ele alan teorik bir sunum ile Python kullanarak
+
+Bu proje, internetin temel çalışma mantığını (İstemci-Sunucu ilişkisi), WWW ve İnternet farkını ve markup dillerini (HTML/XML) ele alan 
+teorik bir sunum ile Python kullanarak
 dinamik bir HTML dosyası oluşturma uygulamasını kapsamaktadır.
 
 
 
 Proje İçeriği ve Sunum:
-Sunum Dosyası:  ...... (İnternet, Web, HTML/XML ve Sunucu-İstemci ilişkisi üzerine 25-30 sayfalık detaylı anlatım) 
+
+Sunum Dosyası:  ...... 
+
 YouTube Sunum Videosu: ........
+
 Python Projesi: Otomatik HTML Oluşturucu 
 
 
 Kodun Amacı ve Çalışma Mantığı:
+
 Bu program, Python'un String (Dizgi) işleme ve Dosya Yazma (File Write) yeteneklerini kullanarak kullanıcıdan aldığı verileri statik bir web sitesine dönüştürür.
 Veri Toplama: Program konsol üzerinden kullanıcıya ad, dersler ve biyografi gibi sorular yöneltir.
 HTML Yapılandırma: Alınan yanıtlar, HTML etiketleri (<h1>, <p>, <ul>, <li>) arasına yerleştirilerek bir web sayfası iskeleti oluşturulur.
