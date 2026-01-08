@@ -45,6 +45,7 @@ Dosya Çıktısı: Program tüm bu verileri birleştirerek dizinde otomatik olar
 
 
 Nasıl Çalıştırılır? 
+
 1)Bilgisayarınızda Python yüklü olduğundan emin olun.
 
 2)src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
