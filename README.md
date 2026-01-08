@@ -32,11 +32,7 @@ Stil Ekleme: Sayfanın görsel olarak daha iyi görünmesi için basit CSS renkl
 Dosya Çıktısı: Program tüm bu verileri birleştirerek dizinde otomatik olarak bir index.html dosyası oluşturur.
 
 Nasıl Çalıştırılır? 
-
 Bilgisayarınızda Python yüklü olduğundan emin olun.
-
 src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
-
 Konsoldaki soruları yanıtlayın.
-
 Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
