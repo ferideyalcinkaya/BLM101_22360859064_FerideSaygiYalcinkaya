@@ -31,8 +31,9 @@ HTML Yapılandırma: Alınan yanıtlar, HTML etiketleri (<h1>, <p>, <ul>, <li>) 
 Stil Ekleme: Sayfanın görsel olarak daha iyi görünmesi için basit CSS renklendirmeleri koda dahil edilir.
 Dosya Çıktısı: Program tüm bu verileri birleştirerek dizinde otomatik olarak bir index.html dosyası oluşturur.
 
+
 Nasıl Çalıştırılır? 
-Bilgisayarınızda Python yüklü olduğundan emin olun.
-src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
-Konsoldaki soruları yanıtlayın.
-Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
+1)Bilgisayarınızda Python yüklü olduğundan emin olun.
+2)src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
+3)Konsoldaki soruları yanıtlayın.
+4)Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
