@@ -32,15 +32,23 @@ Python Projesi: Otomatik HTML Oluşturucu
 
 Kodun Amacı ve Çalışma Mantığı:
 
-Bu program, Python'un String (Dizgi) işleme ve Dosya Yazma (File Write) yeteneklerini kullanarak kullanıcıdan aldığı verileri statik bir web sitesine dönüştürür.
+Bu program, Python'un String (Dizgi) işleme ve Dosya Yazma (File Write) yeteneklerini kullanarak kullanıcıdan aldığı verileri
+statik bir web sitesine dönüştürür.
+
 Veri Toplama: Program konsol üzerinden kullanıcıya ad, dersler ve biyografi gibi sorular yöneltir.
-HTML Yapılandırma: Alınan yanıtlar, HTML etiketleri (<h1>, <p>, <ul>, <li>) arasına yerleştirilerek bir web sayfası iskeleti oluşturulur.
+
+HTML Yapılandırma: Alınan yanıtlar,HTML etiketleri arasına yerleştirilerek bir web sayfası iskeleti oluşturulur.
+
 Stil Ekleme: Sayfanın görsel olarak daha iyi görünmesi için basit CSS renklendirmeleri koda dahil edilir.
+
 Dosya Çıktısı: Program tüm bu verileri birleştirerek dizinde otomatik olarak bir index.html dosyası oluşturur.
 
 
 Nasıl Çalıştırılır? 
 1)Bilgisayarınızda Python yüklü olduğundan emin olun.
+
 2)src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
+
 3)Konsoldaki soruları yanıtlayın.
+
 4)Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
