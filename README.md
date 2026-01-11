@@ -16,8 +16,7 @@ Bu proje kapsamında; İnternet ve Web (WWW) arasındaki farklar, HTML/XML işar
 ## 🎥 Sunum ve Uygulama Videosu
 Proje sunumuna ve kodun çalışma detaylarına aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-👉 [YouTube Video Linki Buraya Gelecek]
-*(Not: Videonuzun YouTube'da "Liste Dışı" veya "Herkese Açık" olduğundan emin olun.)*
+👉 https://www.youtube.com/watch?v=VBpAuDv4hRQ
 
 ---
 
