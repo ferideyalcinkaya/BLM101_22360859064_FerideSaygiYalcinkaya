@@ -1,4 +1,4 @@
-# BLM101_22360859064_FerideSayg-Yal-nkaya
+# BLM101_22360859064_FerideSaygiYalcinkaya
 Öğrenci Bilgileri 
 
 
