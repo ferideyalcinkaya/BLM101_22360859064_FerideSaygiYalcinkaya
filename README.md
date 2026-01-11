@@ -1,87 +1,43 @@
-# BLM101_22360859064_FerideSaygiYalcinkaya
-Öğrenci Bilgileri 
+# BLM101 - Bilgisayar Mühendisliğine Giriş Dönem Projesi
 
+## 👤 Öğrenci Bilgileri
+* **Adı Soyadı: Feride Saygı Yalçınkaya
+* **Öğrenci Numarası: 22360859064
+* **Bölüm:** Bilgisayar Mühendisliği
 
-Ad Soyad:Feride Saygı Yalçınkaya
+---
 
+## 📚 Proje Konusu
+**Grup 5: Ağlar, İnternet ve HTML**
+Bu proje kapsamında; İnternet ve Web (WWW) arasındaki farklar, HTML/XML işaretleme dilleri ve İstemci-Sunucu ilişkisi incelenmiştir. Pratik uygulama olarak "Python ile Otomatik HTML Sayfası Oluşturucu" geliştirilmiştir.
 
-Öğrenci Numarası:22360859064
+---
 
+## 🎥 Sunum ve Uygulama Videosu
+Proje sunumuna ve kodun çalışma detaylarına aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-Grup: 5. Grup (Ağlar, İnternet ve HTML) 
+👉 [YouTube Video Linki Buraya Gelecek]
+*(Not: Videonuzun YouTube'da "Liste Dışı" veya "Herkese Açık" olduğundan emin olun.)*
 
+---
 
-Proje Konusu:
+## 💻 Proje Açıklaması: Python ile Otomatik HTML Sayfası Oluşturucu
 
-Ağlar, İnternet ve HTML: Python ile Otomatik HTML Sayfası Oluşturucu 
+### Kod Ne Yapıyor?
+Bu program, kullanıcıdan konsol üzerinden aldığı bilgilerle (İsim, dersler, biyografi vb.) dinamik olarak bir **index.html** dosyası oluşturur. Temel amacı, Python'un "String" (metin) işleme ve "File Write" (dosyaya yazma) yeteneklerini kullanarak statik bir web sitesi iskeleti üretmektir.
 
-Bu proje, internetin temel çalışma mantığını (İstemci-Sunucu ilişkisi), WWW ve İnternet farkını ve markup dillerini (HTML/XML) ele alan 
-teorik bir sunum ile Python kullanarak
-dinamik bir HTML dosyası oluşturma uygulamasını kapsamaktadır.
+### Algoritma Mantığı
+1.  **Girdi Toplama:** `input()` fonksiyonları ile kullanıcıdan isim, alınan dersler ve biyografi bilgileri alınır.
+2.  **HTML Yapılandırması:** Python içerisinde bir string değişkeni oluşturularak standart HTML5 etiketleri (`<html>`, `<head>`, `<body>`) tanımlanır.
+3.  **CSS Entegrasyonu:** Web sayfasının görsel olarak düzenli durması için basit CSS kodları (renklendirme, başlık hizalama) string içine gömülür.
+4.  **Dosya Yazımı:** `open("index.html", "w")` komutu ile bir dosya oluşturulur ve hazırlanan metin bu dosyanın içine yazılarak kaydedilir.
 
+### Kullanılan Kütüphaneler
+* `os`: (Opsiyonel) Dosya işlemleri kontrolü için.
+* Ekstra bir kütüphane kurulumu gerektirmez, standart Python kütüphaneleri yeterlidir.
 
-
-Proje İçeriği ve Sunum:
-
-Sunum Dosyası:  ...... 
-
-YouTube Sunum Videosu: ........
-
-Python Projesi: Otomatik HTML Oluşturucu 
-
-
-Kodun Amacı ve Çalışma Mantığı:
-
-Bu program, Python'un String (Dizgi) işleme ve Dosya Yazma (File Write) yeteneklerini kullanarak kullanıcıdan aldığı verileri
-statik bir web sitesine dönüştürür.
-
-Veri Toplama: Program konsol üzerinden kullanıcıya ad, dersler ve biyografi gibi sorular yöneltir.
-
-HTML Yapılandırma: Alınan yanıtlar,HTML etiketleri arasına yerleştirilerek bir web sayfası iskeleti oluşturulur.
-
-Stil Ekleme: Sayfanın görsel olarak daha iyi görünmesi için basit CSS renklendirmeleri koda dahil edilir.
-
-Dosya Çıktısı: Program tüm bu verileri birleştirerek dizinde otomatik olarak bir index.html dosyası oluşturur.
-
-
-Nasıl Çalıştırılır? 
-
-1)Bilgisayarınızda Python yüklü olduğundan emin olun.
-
-2)src/ klasörü altındaki .py uzantılı dosyayı çalıştırın.
-
-3)Konsoldaki soruları yanıtlayın.
-
-4)Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
-Kod Açıklaması ve Algoritma Mantığı
-Bu proje, Python programlama dilinin temel yeteneklerini kullanarak dinamik bir web içeriği (HTML) üretmek amacıyla geliştirilmiştir.
-
-
-
-1. Kullanılan Teknolojiler ve Kütüphaneler
-
-Python: Programın ana mantığı ve veri işleme süreçleri için kullanılmıştır.
-
-
-Python Standart Kütüphanesi: Herhangi bir dış kütüphane kurulumuna gerek duyulmadan, yerleşik input() ve open() fonksiyonları kullanılmıştır.
-
-
-
-HTML5 & CSS3: Çıktı dosyasının yapısı ve görsel tasarımı için tercih edilmiştir.
-
-
-2. Algoritma ve Çalışma Mantığı
-Programın çalışma süreci şu adımlardan oluşmaktadır:
-
-Veri Girişi: input() fonksiyonu ile kullanıcıdan kişisel bilgiler ve ders listesi alınır.
-
-Veri İşleme (Parsing): Kullanıcının virgülle ayırarak girdiği dersler, .split(",") metodu ile bir listeye dönüştürülür.
-Ardından bir for döngüsü kullanılarak her ders HTML'deki <li> (liste elemanı) etiketleri arasına yerleştirilir.
-
-Şablon Oluşturma: Python'daki f-string yapısı kullanılarak, kullanıcıdan alınan değişkenler önceden hazırlanmış HTML/CSS iskeletine dinamik olarak yerleştirilir.
-
-Dosya Yazma (File Write): Hazırlanan string verisi, utf-8 kodlamasıyla index.html ismiyle yerel dizine kaydedilir.
-Bu aşamada try-except bloğu kullanılarak olası dosya yazma hataları kontrol edilir.
-
-3. Kodun Amacı
-Bu uygulama, bir bilgisayar mühendisinin temel becerilerinden olan "veriyi işleme" ve "veriyi farklı bir formatta (HTML) sunma" mantığını kavramak için hazırlanmıştır
+### Nasıl Çalıştırılır?
+1.  Bilgisayarınızda Python'un yüklü olduğundan emin olun.
+2.  `src` veya `kodlar` klasörü içindeki `.py` uzantılı dosyayı bir terminal veya IDE (VS Code, PyCharm vb.) üzerinden çalıştırın.
+3.  Konsoldaki soruları yanıtlayın.
+4.  Program bittiğinde, aynı klasörde oluşan `index.html` dosyasını herhangi bir internet tarayıcısıyla açarak sonucu görüntüleyebilirsiniz.
