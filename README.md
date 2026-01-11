@@ -1,8 +1,8 @@
 # BLM101 - Bilgisayar Mühendisliğine Giriş Dönem Projesi
 
 ## 👤 Öğrenci Bilgileri
-* **Adı Soyadı: Feride Saygı Yalçınkaya
-* **Öğrenci Numarası: 22360859064
+* **Adı Soyadı:** Feride Saygı Yalçınkaya
+* **Öğrenci** Numarası: 22360859064
 * **Bölüm:** Bilgisayar Mühendisliği
 
 ---
