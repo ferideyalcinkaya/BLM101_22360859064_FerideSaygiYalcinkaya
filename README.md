@@ -53,3 +53,35 @@ Nasıl Çalıştırılır?
 3)Konsoldaki soruları yanıtlayın.
 
 4)Aynı klasörde oluşan index.html dosyasını herhangi bir tarayıcıda açarak sonucu görüntüleyin.
+Kod Açıklaması ve Algoritma Mantığı
+Bu proje, Python programlama dilinin temel yeteneklerini kullanarak dinamik bir web içeriği (HTML) üretmek amacıyla geliştirilmiştir.
+
+
+
+1. Kullanılan Teknolojiler ve Kütüphaneler
+
+Python: Programın ana mantığı ve veri işleme süreçleri için kullanılmıştır.
+
+
+Python Standart Kütüphanesi: Herhangi bir dış kütüphane kurulumuna gerek duyulmadan, yerleşik input() ve open() fonksiyonları kullanılmıştır.
+
+
+
+HTML5 & CSS3: Çıktı dosyasının yapısı ve görsel tasarımı için tercih edilmiştir.
+
+
+2. Algoritma ve Çalışma Mantığı
+Programın çalışma süreci şu adımlardan oluşmaktadır:
+
+Veri Girişi: input() fonksiyonu ile kullanıcıdan kişisel bilgiler ve ders listesi alınır.
+
+Veri İşleme (Parsing): Kullanıcının virgülle ayırarak girdiği dersler, .split(",") metodu ile bir listeye dönüştürülür.
+Ardından bir for döngüsü kullanılarak her ders HTML'deki <li> (liste elemanı) etiketleri arasına yerleştirilir.
+
+Şablon Oluşturma: Python'daki f-string yapısı kullanılarak, kullanıcıdan alınan değişkenler önceden hazırlanmış HTML/CSS iskeletine dinamik olarak yerleştirilir.
+
+Dosya Yazma (File Write): Hazırlanan string verisi, utf-8 kodlamasıyla index.html ismiyle yerel dizine kaydedilir.
+Bu aşamada try-except bloğu kullanılarak olası dosya yazma hataları kontrol edilir.
+
+3. Kodun Amacı
+Bu uygulama, bir bilgisayar mühendisinin temel becerilerinden olan "veriyi işleme" ve "veriyi farklı bir formatta (HTML) sunma" mantığını kavramak için hazırlanmıştır
